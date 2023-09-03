@@ -29,7 +29,7 @@ export default async function SlugPage({ params }: { params: { slug: string } })
         <div className='space-y-1 text-center'>
           <div className='space-y-10'>
             <div>
-              <p className='text-base font-medium leading-6 text-teal-500'>
+              <p className='text-base font-medium leading-6 text-teal-800 dark:text-teal-500'>
                 {new Date(data._createdAt).toISOString().split('T')[0]}
               </p>
             </div>
